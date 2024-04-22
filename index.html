@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <!-- logo -->
+      <div class="logo">
+        <h1><i class="fa-solid fa-book"></i>logo.</h1>
+      </div>
+      <ul id="menulist">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Feedback</a></li>
+      </ul>
+        <!-- icons
+         -->
+         <div class="menu-icon">
+          <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+
+         </div>
+    </nav>
+      <div class="container">
+        <img src="background.jpg" alt="">
+      </div> 
+    <div class="container">
+      <!-- 1 -->
+      <div class="row">
+        <div class="col">
+          <div class="p-5 mt-3 text-dark"> 
+            <h1>Cybersecurity</h1>
+            <p>Cybersecurity involves protecting computer systems, networks, and data from unauthorized access, attacks, and damage. This subject covers topics like cryptography, network security, system security, ethical hacking, and security policies and procedures.
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dicta quibusdam ipsa. </p>
+            <a href="" class="btn btn-info"> click here</a>
+
+          </div>
+          
+        </div>
+        <div class="col">
+          <div class="p-5 mt-3  text-dark">
+            <h1>Artificial Intelligence</h1>
+            <p> Artificial Intelligence (AI) is the simulation of human intelligence processes Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias suscipit soluta ratione. by machines. This subject explores various AI techniques such as machine learning, natural language processing, computer vision, expert systems, and neural networks.
+            </p>
+            <a href="" class="btn btn-info"> click here</a>
+          </div>
+          
+        </div>
+        <div class="col">
+          <div class="p-5 mt-3  text-dark">
+            <h1>software engineering</h1>
+            <p> Software engineering focuses on the systematic approach to developing, lorem12\
+               maintaining, and managing software projects. It covers topics such as software development methodologies,</p>
+            <a href="" class="btn btn-info"> click here</a>
+          </div>
+          
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="row">
+        <div class="col">
+          <div class="p-5 mt-3  text-dark"> 
+            <h1>computer network</h1>
+            <p> Computer networks facilitate communication and resource sharing Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta et temporibus provident! among multiple devices. This subject covers the principles of networking, including network architectures, protocols, transmission media, routing, switching,</p>
+            <a href="" class="btn btn-info"> click here</a>
+          </div>
+          
+        </div>
+        <div class="col">
+          <div class="p-5 mt-3  text-dark">
+            <h1>database management system</h1>
+            <p> Databases are organized collections of data that enable efficient Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt accusantium ipsum sint! data storage, retrieval, and manipulation. This subject explores concepts such as relational databases, SQL query language</p>
+            <a href="" class="btn btn-info"> click here</a>
+          </div>
+          
+        </div>
+        <div class="col">
+          <div class="p-5 mt-3  text-dark">
+            <h1>operating system</h1>
+            <p>An operating system is software that manages computer hardware and Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti et quaerat iusto harum. provides services for running applications. This subject delves into the design, implementation, and functionality of operating systems</p>
+            <a href="" class="btn btn-info"> click here</a>
+          </div>
+          
+        </div>
+      </div>
+     <!-- 3 -->
+      <div class="row">
+        <div class="col">
+          <div class="p-5 mt-3  text-dark"> 
+            <h1>data structure </h1>
+            <p> Data structures refer to the organization, management, and  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio officia enim ratione repudiandae minus eum.storage of data in a computer, while algorithms are step-by-step procedures for solving computational problems.</p>
+            <a href="" class="btn btn-info"> click here</a>
+          </div>
+          
+        </div>
+        <div class="col">
+          <div class="p-5 mt-3  text-dark">
+            <h1>web development</h1>
+            <p>web develoment to  design a good responsive site for a internet Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, amet?
+               </p>
+            <a href="" class="btn btn-info"> click here</a>
+          </div>
+          
+        </div>
+        <div class="col">
+          <div class="p-5 mt-3  text-dark">
+            <h1>database</h1>
+            <p>database is collection of data information. lts contain any type of data include Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam ea iure a! of word number images videos and files </p>
+            <a href="" class="btn btn-info"> click here</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <nav>
+      <div class="container">
+        <div class=" mb-3 text-light ">
+          <h3>@ 2024 NextGen Solution Innovating for a Good Future </h3>
+        </div>
+    </nav>
+
+    </div>
+  </body>
+  <script>
+    let menuList = document.getElementById("menuList")
+    menuList.style.maxHeight = "0px";
+    
+    function toggleMenu(){
+      if(menuList.style.maxHeight == "0px")
+      {
+        menuList.style.maxHeight = "300px";
+
+      }
+      else{
+        menuList.style.maxHeight = "0px";
+
+      }
+    }
+
+  </script>
+<script src="./assets/js/bootstrap.bundle.min.js"></script>
+</html>
